@@ -15,10 +15,12 @@ https://static.imasters.com.br/wp-content/uploads/2018/06/19143947/TR.jpg
 
 No arquivo appsettings.json, abra-o e poderá definir o caminho da conexão a ser injetada.
 
+```http
   "ConnectionStrings": {
     "LTL": "Server=Trinity01;Database=ltlmontagens;uid=root;pwd=root;Port=3306;charset=utf8;"
     "TENANT": "Server=Trinity01;Database=ltlmontagens;uid=root;pwd=root;Port=3306;charset=utf8;"
   },
+```
 
 `TENANT` Você definirá as configurações de conexão da Tenant, vale ressaltar que esse nome será 
 utilizado na novagação da rota da da API.
