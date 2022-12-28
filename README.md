@@ -1,7 +1,7 @@
 
 # Web-API Multitenant MySQL
 
-Utilizando o princípio de SaaS (Software as a Service) essa Web-API foi criada 
+Web-API desenvolvida em .Net Core + Entity Framework 6 utilizando o princípio de SaaS (Software as a Service) essa Web-API foi criada 
 com o intuito de servir a um ERP que utiliza o padrão de Arquitetura Multitenant, onde cada empresa é um Tenant (Locatório) com suas strings de conexões distintas.
 
 
